@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <style type="text/css">
+        @media screen and (max-width:1600px) {
+            img {
+                width: 100%;
+            }
+        }
+
+        h2 {
+            background-color: khaki;
+            color: gray;
+            padding: 10px;
+        }
+
+        .textoResponsivo {
+            font-size: 3vw;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .contenido_i {
+            background-color: aqua;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+
+        .contenido_p {
+            background-color: khaki;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+
+        .contenido_d {
+            background-color: coral;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+
+        @media screen and (max-width: 450px) {
+            .contenido_i, .contenido_p, .contenido_d {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi pagina web responsiva</h1>
+    <hr>
+    <h2>Mis imagenes</h2>
+    <!-- 1. Imagen responsiva usando Media Query -->
+    <!-- <img src="./img/universo_1600.jpg"> -->
+
+    <!-- 2. Imagen responsiva usando picture -->
+    <!-- <picture>
+        <source srcset="./img/universo_400.jpg" media="(max-width: 420px)">
+        <source srcset="./img/universo_800.jpg" media="(max-width: 800px)">
+        <source srcset="./img/universo_1600.jpg" media="(max-width: 1200px)">
+        <img src="./img/universo_1600.jpg">
+    </picture> -->
+
+    <!-- 3. Texto responsivo -->
+    <h2>Texto Responsivo</h2>
+    <!-- <p class="textoResponsivo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora voluptatibus nobis. Voluptates explicabo beatae fugiat, sunt dicta earum recusandae quidem illo laborum ipsa provident porro placeat modi aut sed.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt consequuntur laborum! Facere laborum quis dolorum magnam aperiam, totam minus? Culpa corrupti aut dolorem nesciunt quaerat voluptas nihil qui rerum.
+    </p> -->
+
+    <!-- 4. Bloques responsivos -->
+    <h2>Contenedores</h2>
+    <div class="contenido_i">
+        <p>Seccion Izquierda</p>
+    </div>
+    <div class="contenido_p">
+        <p>Seccion Principal</p>
+    </div>
+    <div class="contenido_d">
+        <p>Seccion Derecha</p>
+    </div>
+</body>
+</html>

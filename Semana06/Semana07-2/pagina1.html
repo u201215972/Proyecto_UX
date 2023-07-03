@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <style type="text/css">
+        .ciudad {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .subTitulo {
+            background-color: khaki;
+            color: gray;
+            padding: 10px;
+        }
+
+        table {
+            border: 2px solid black;
+        }
+
+        table thead tr th {
+            font-size: 20px;
+            border: 2px dashed gray;
+            padding: 5px;
+        }
+
+        table tbody tr td {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        span {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="myHeader">Lista de Ciudades</h1> 
+        <h2 class="ciudad">Londres</h2>
+        <p>Londres es la capital de Inglaterra</p>
+        <h2 class="ciudad">Paris</h2>
+        <p>Paris es la capital de Francia</p>
+        <h2 class="ciudad">Tokio</h2>
+        <p>Tokio es la capital de Japon</p>
+
+        <h2 class="subTitulo">Elementos para formatear texto</h2>
+        <ul>
+            <li><b>Texto en Negrita</b></li>
+            <li><i>Texto en Cursiva</i></li>
+            <li><small>Texto Pequenho</small></li>
+            <li><sub>Texto Inferior</sub></li>
+            <li><sup>Texto Superior</sup></li>
+            <li><del>Texto Tachado</del></li>
+            <li><mark>Texto Marcado</mark></li>
+        </ul>
+
+        <h2 class="subTitulo">Manejo de Tabla</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nro.</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Andreina</td>
+                    <td>Buttgenbach</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fernando</td>
+                    <td>Abad</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Liz</td>
+                    <td>Medina</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div>
+            <h2 class="subTitulo">Ejemplo de Div y Span</h2>
+            <p>
+                Este es un parrafo dentro de un Div <span>y esto es un span dentro de un parrafo</span><span> y este es un segundo span dentro del parrafo</span>
+            </p>
+            <p>
+                Este es un parrafo dentro de un Div <span>y esto es un span dentro de un parrafo</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
